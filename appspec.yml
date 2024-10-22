@@ -1,0 +1,6 @@
+version: 0.0
+os: linux
+files:
+  - source: / # The source directory in the GitHub repository
+    destination: /var/www/html # The destination directory on the EC2 instance
+    overwrite: yes
